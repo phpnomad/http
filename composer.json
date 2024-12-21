@@ -1,0 +1,31 @@
+{
+    "name": "phpnomad/http",
+    "description": "Foundational components for working with HTTP request/responses.",
+    "type": "library",
+    "homepage": "https://github.com/phpnomad/core",
+    "readme": "README.md",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PHPNomad\\Http\\": "lib/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Standiford",
+            "email": "alex@standiford.us"
+        }
+    ],
+    "require": {
+        "phpnomad/enum-polyfill": "^1.0",
+        "phpnomad/auth": "^1.0"
+    },
+    "require-dev": {
+        "phpnomad/tests": "^0.1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    }
+}
