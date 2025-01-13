@@ -52,23 +52,23 @@
         },
         {
             "name": "phpnomad/enum-polyfill",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpnomad/enum-polyfill.git",
-                "reference": "6d24b759f566066b30b244cb0584ab7c03da1d0e"
+                "reference": "0502689aa07ddeff67421ed57120f693f096a6ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpnomad/enum-polyfill/zipball/6d24b759f566066b30b244cb0584ab7c03da1d0e",
-                "reference": "6d24b759f566066b30b244cb0584ab7c03da1d0e",
+                "url": "https://api.github.com/repos/phpnomad/enum-polyfill/zipball/0502689aa07ddeff67421ed57120f693f096a6ed",
+                "reference": "0502689aa07ddeff67421ed57120f693f096a6ed",
                 "shasum": ""
             },
             "require": {
                 "phpnomad/singleton": "^1.0"
             },
             "require-dev": {
-                "phpnomad/tests": "^0.1.0"
+                "phpnomad/tests": "^0.1.0 || ^0.3.0"
             },
             "type": "library",
             "autoload": {
@@ -89,9 +89,9 @@
             "homepage": "https://github.com/phpnomad/core",
             "support": {
                 "issues": "https://github.com/phpnomad/enum-polyfill/issues",
-                "source": "https://github.com/phpnomad/enum-polyfill/tree/1.0.0"
+                "source": "https://github.com/phpnomad/enum-polyfill/tree/1.0.1"
             },
-            "time": "2024-12-18T17:03:12+00:00"
+            "time": "2025-01-13T11:51:33+00:00"
         },
         {
             "name": "phpnomad/event",
@@ -4813,5 +4813,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
