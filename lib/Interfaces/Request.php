@@ -63,6 +63,13 @@ interface Request extends HasUser
     public function removeParam(string $name): void;
 
     /**
+     * Get the raw body of the request, as a string.
+     *
+     * @return string The raw body
+     */
+    public function getBody(): string;
+    
+    /**
      * Get all request parameters.
      *
      * @return array<string, mixed> An associative array of parameter names to values.
