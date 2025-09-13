@@ -1,7 +1,7 @@
 {
     "name": "phpnomad/http",
     "description": "Foundational components for working with HTTP request/responses.",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "type": "library",
     "homepage": "https://github.com/phpnomad/core",
     "readme": "README.md",
